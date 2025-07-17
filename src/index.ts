@@ -10,7 +10,7 @@ import { validateFile, extractFileMetadata } from './utils/file-validator.js';
  * Type guard to check if a FormDataEntryValue is a File
  */
 function isFile(value: FormDataEntryValue | null): value is File {
-  return value !== null && typeof value === 'object' && 'name' in value && 'size' in value;
+  return value instanceof File;
 }
 
 export default {
