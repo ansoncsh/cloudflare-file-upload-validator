@@ -1,0 +1,19 @@
+{
+	"permissions": {
+		"allow": [
+			"Bash(grep:*)",
+			"Bash(ls:*)",
+			"Bash(source:*)",
+			"Bash(find:*)",
+			"Bash(mv:*)",
+			"Bash(mkdir:*)",
+			"Bash(tree:*)",
+			"Bash(touch:*)",
+			"Bash(cat:*)",
+			"Bash(yarn:*)",
+			"WebFetch(domain:docs.anthropic.com)",
+			"WebFetch(domain:developers.cloudflare.com)"
+		],
+		"deny": []
+	}
+}
